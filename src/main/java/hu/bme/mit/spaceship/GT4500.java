@@ -1,5 +1,7 @@
 package hu.bme.mit.spaceship;
 
+import java.util.Random;
+
 /**
 * A simple spaceship with two proton torpedo stores and four lasers
 */
@@ -7,7 +9,6 @@ public class GT4500 implements SpaceShip {
 
   private TorpedoStore primaryTorpedoStore;
   private TorpedoStore secondaryTorpedoStore;
-
   private boolean wasPrimaryFiredLast = false;
 
   public GT4500() {
