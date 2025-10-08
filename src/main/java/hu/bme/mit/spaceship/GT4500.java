@@ -1,6 +1,5 @@
 package hu.bme.mit.spaceship;
 
-import java.util.Random;
 
 /**
 * A simple spaceship with two proton torpedo stores and four lasers
